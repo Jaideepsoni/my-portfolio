@@ -6,7 +6,7 @@ const MobileNav = ({ isOpen, toggleMenu }) => {
         <>
             <div className={`mobile-menu ${isOpen ? "active" : ""}`} onClick={toggleMenu}>
                 <div className='mobile-menu-container'>
-                    <img className='logo' src="" alt="" />
+                    <h1>Jay's Portfolio</h1>
 
                     <ul>
                         <li>
